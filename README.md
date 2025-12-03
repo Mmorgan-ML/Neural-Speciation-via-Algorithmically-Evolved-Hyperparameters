@@ -80,12 +80,13 @@ Scientific rigor is paramount. A genome might perform well once due to a lucky r
     *   *Legend Controls:* Robust legend controls, allowing showing and hiding of groups, individual genomes, lines / boxes / confidence intervals, etc to allow you to get your perfect shot of your data.
 
 ### 4. 📊 The Phylogenetic Dashboard (`neural_speciation_dashboard.py`)
-<img width="1919" height="613" alt="neural_speciation" src="https://github.com/user-attachments/assets/0e65afab-b9a0-412d-bf1d-0a05fc0367b9" />
+<img width="1919" height="665" alt="image" src="https://github.com/user-attachments/assets/d29868b6-e392-438f-b5fb-3e727141f350" />
 
 A hardware-accelerated 3D visualization of the fitness landscape.
 
 *   **PCA Projection:** Maps the 17-dimensional genome into 3D space using Principal Component Analysis.
 *   **Unsupervised Clustering:** Automatically detects, reveals, and names "Species" (e.g., `High-LR / Low-Decay Cluster`).
+    *   New Feature: Can now choose to categorize genomes by Domain, Kingdom, Phylum, Class, Order, Family, or Genus, loosening or tightening the graph's categorization of genetic relatedness.
 *   **Clipboard Integration:**
     *   Click any individual node to copy its DNA hash.
     *   Click a Species Name to copy **all** hashes within that cluster (useful for bulk-importing a species back into the Evolution Lab for further refinement or Stress Test for data analysis).
